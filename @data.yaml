@@ -1,0 +1,132 @@
+Name:     Michał Adamczyk
+Role:     Software Developer, Researcher
+Email:    code.madamczyk@gmail.com
+Github:   https://github.com/mdm-code
+Location: Łódź, Poland
+
+Skills:
+- UNIX/Linux Systems Architecture and Use
+- Software Design and Development
+- Python
+- Go
+- Terminal User Interface
+- Test Driven Development Practices
+- Domain Driven Design Practices
+- Interprocess Communication Methods
+- Transport Layer Protocols API Development and Design
+- API Protocols
+- Docker Containerization
+- Scripting and Automation
+- Speech and Natural Language Processing
+- Language Modeling
+- Data Collection and Management
+- Data Engineering
+- Corpus Design
+- Data-centric Approach
+- Grammars and Parsing
+- Scientific Method
+- Writing and Research Publication
+
+Summary:
+  I am a software developer with experience in natural language processing and
+  natural language understanding. This is mostly backend and data management.
+  I do research in both contemporary and historical linguistics.
+
+Languages:
+- Polish (native)
+- British English (native-like spoken and written)
+
+Education:
+- Doctor of Philosophy, Literacy Studies (Linguistics), University of Stavanger, 2018-ongoing
+- Master of Arts, English (Linguistics), University of Łódź, 2012-2014
+- Bachelor of Arts, English (Linguistics), University of Łódź, 2009-2012
+
+Projects:
+- Opinionated snippet manager for Unix-derived systems (https://github.com/mdm-code/gsnip)
+- The XDG base directory specification in Go (https://github.com/mdm-code/xdg)
+- Lemmatizer for Middle English built with T5 encoder-decoder model (https://github.com/mdm-code/manx)
+- Zettelkasten as a single POSIX shell script, BusyBox style (https://github.com/mdm-code/zet)
+
+Experience:
+- Role:     Software Developer / Researcher
+  Entity:   CLARIN-PL / University of Łódź
+  Started:  February 2021
+  Location: Remote / Łódź, Poland
+  Details:
+  - Developed text segment parallelization REST API
+  - Designed and integrated database schemas for spoken language acquisition
+  - Coauthored tasks for PolEval 2021 and 2022
+  - Coauthored a report evaluating the performance of major ASR engines for Polish
+  - Added automatic punctuation to text using a transformer-based sequential classifier
+  - Designed and implemented intent classification taxonomy
+  - Coauthored DiaBiz, an annotated corpus of Polish call center dialogs
+  - Enhanced existing language models and classifiers with domain-specific data
+  - Processed large volumes of transcribed speech with forced-alignment
+  - Systematized data from multiple databases for author authentication experiments
+  - Coded intent classifier API with FAISS and semantic embeddings
+
+- Role:     Software Developer / Researcher
+  Entity:   VoiceLab
+  Started:  November 2019
+  Stopped:  February 2021
+  Location: Remote, Norway / Gdańsk, Poland
+  Details:
+  - Created English language model with 10% increase in an extrinsic evaluation
+  - Developed web scrapers to gather medical language material at scale
+  - Scripted numerous audio processing pipelines in POSIX shell
+  - Written numerous tools and commands for natural language processing
+  - Developed vastly faster grapheme-to-phoneme converter for Polish
+  - Worked with most language modelling toolkits
+  - Utilized semantic embeddings for intent recognition and clustering
+  - Embedded forced-alignment and speaker diarization in ASR pipelines
+
+- Role:     PhD Fellow
+  Entity:   University of Stavanger
+  Started:  January 2018
+  Stopped:  December 2020
+  Location: Stavanger, Norway
+  Details:
+  - Delivered papers on international conferences and symposia
+  - Worked on annotation guidelines and administered transcription process
+  - Developed data for low-resource, historical languages
+  - Assisted fellow researchers to utilize VCS in the team's daily work
+  - Developed extensible data processing pipeline for historical language material
+  - Written up the whole monograph in LaTeX
+
+- Role:     Program Administrator
+  Entity:   TAPFIN/ManpowerGroup Solutions
+  Started:  July 2016
+  Stopped:  December 2017
+  Location: Łódź, Poland
+  Details:
+  - Handled invoicing and business reports for the client and workforce suppliers
+  - Participated in job interviews for various coding positions
+  - Supported the client with workforce intelligence
+
+- Role:     Copywriter
+  Entity:   Softbox Group
+  Started:  June 2016
+  Stopped:  August 2016
+  Location: Łódź, Poland (Remote)
+  Details:
+  - Localized marketing materials for a major hotel brand
+  - Helped to promote brand with professional Polish to English translations
+  - Adapted English advertizing materials to the Polish market
+
+- Role:     English Language Instructor
+  Entity:   Empik Language School
+  Started:  October 2015
+  Stopped:  August 2016
+  Location: Łódź, Poland
+  Details:
+  - Facilitated English language learning among students
+  - Developed language learning aids and tutorials
+  - Motivated students to practice English pronunciation in class
+
+Keywords: [UNIX, Linux, BSD, Ubuntu, Docker, Containers, Docker-compose,
+Command Line Interface (CLI), Terminal User Interface (TUI), Secure Shell
+(SSH), Networking, TCP/IP, Unix Domain Sockets (UDS), Sockets, HTTP, REST,
+RPC, JSON-RPC, SQL, PostgreSQL, POSTGRES, TMUX, Screen, Vim, Vi, Neovim, Git,
+GitHub, GitLab, Python, Go (golang), Bash, Zsh, Shell, POSIX, FastAPI, Flask,
+Pandas, Jupyter, Natural Language Processing (NLP), Natural Language
+Understanding (NLU), UML, YAML, JSON, Markdown, XML, LaTeX, Pandoc, TDD, DDD]
