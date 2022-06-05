@@ -1,9 +1,11 @@
 # Michał Adamczyk's Curriculum Vitae
 
-Here is my ![@latest](github.com/mdm-code/cv/michal-adamczyk.pdf) resume. It
-is derived from data stored in the ![@data](github.com/mdm-code/cv/data/@latest)
-file that keeps all relevant information about my professional life in one place.
-The structured data format of a `yaml` flat file makes it easy to browse through
+Here is my
+![@latest](https://github.com/mdm-code/cv/blob/main/michal-adamczyk.pdf)
+resume. It is derived from data stored in the
+![@data](https://github.com/mdm-code/cv/blob/main/data/data.yaml) file that
+keeps all relevant information about my professional life in one place. The
+structured data format of a `yaml` flat file makes it easy to browse through
 and filter for relevant information.
 
 
