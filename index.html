@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang='en-US'>
+<head>
+<title>Michał Adamczyk | Software Developer • Researcher</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="shortcut icon" href="../../logo.jpg" type="image/jpg">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;0,  600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<style>
+
+* {
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+}
+
+:root {
+  --bgcolor: #222;
+  --fgcolor: #eee;
+  --boardfg: white;
+  --boardbg: black;
+  --high:    #ccc;
+  --medhigh: #aaa;
+  --lowhigh: #888;
+  --highlow: #666;
+  --medlow:  #555;
+  --low:     #444;
+  --lowlow:  #333;
+  --font: 'Fira Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: var(--font);
+  background: var(--bgcolor);
+  color: var(--fgcolor);
+  text-rendering: optimizeLegibility;
+}
+
+main {
+  max-width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  margin-left: .6rem;
+}
+
+h2 {
+  font-variant: small-caps;
+  font-size: 2rem;
+  line-height: .2rem;
+}
+
+</style>
+
+</head>
+<body>
+<main>
+<style>
+#name {
+  text-shadow: 0 0 .2rem #ddd;
+  font-weight: 900;
+  font-size: 3rem;
+  font-family: SpyAgency, var(--font);
+  margin-bottom: 0;
+}
+#role {
+  font-size:1.22rem;
+  font-weight: 900;
+  font-variant: small-caps;
+  margin-top: 0;
+}
+#about {
+  display: grid;
+  grid-template-areas: "name" "role " "contact";
+}
+#contact {
+  font-size:1.22rem;
+}
+</style>
+
+<div id=about>
+<h1 id=name style='grid-area: name'>Michał Adamczyk</h1>
+<div id=role style='grid-area: role'>Software Developer • Researcher</div>
+<div id=contact style='grid-area: contact'>code.madamczyk@gmail.com • https://github.com/mdm-code</div>
+</div>
+
+<style></style>
+<p id=mission>I am a software developer with experience in natural language processing and natural language understanding. This is mostly backend and data management/processing. I do research in both contemporary and historical linguistics.</p>
+
+<style>
+.employer {
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}
+.employer .role {
+  display: flex;
+  justify-content: space-between;
+}
+.employer .role .dates {
+  font-size: .85rem;
+  color: #777;
+}
+</style>
+
+<div id=experience>
+<h2>Experience</h2>
+
+<div class=employer>
+
+<div class=role>
+  <div><strong>Software Developer / Researcher</strong></div>
+  <div class=dates>February 2021 - Present</div>
+</div>
+<div class=entity>CLARIN-PL / University of Łódź <span class=loc>(Remote / Łódź, Poland)</span></div>
+</div>
+
+<ul class=deets>
+
+<li class=deet>Developed text segment parallelization REST API</li>
+
+<li class=deet>Designed and integrated database schemas for spoken language acquisition</li>
+
+<li class=deet>Coauthored tasks for PolEval 2021 and 2022 (http://poleval.pl/)</li>
+
+<li class=deet>Coauthored a report evaluating the performance of major ASR engines for Polish</li>
+
+<li class=deet>Added automatic text punctuation with a transformer-based sequential classifier</li>
+
+<li class=deet>Designed and implemented intent classification taxonomy</li>
+
+<li class=deet>Coauthored DiaBiz, an annotated corpus of Polish call center dialogs</li>
+
+<li class=deet>Enhanced existing language models and classifiers with domain-specific data</li>
+
+<li class=deet>Processed large volumes of transcribed speech with forced-alignment</li>
+
+<li class=deet>Systematized data across databases for author authentication experiments</li>
+
+<li class=deet>Coded intent classifier API with FAISS and semantic embeddings</li>
+
+</ul>
+
+</div>
+
+<div class=employer>
+
+<div class=role>
+  <div><strong>Software Developer / Researcher</strong></div>
+  <div class=dates>November 2019 - February 2021</div>
+</div>
+<div class=entity>VoiceLab <span class=loc>(Remote, Norway / Gdańsk, Poland)</span></div>
+</div>
+
+<ul class=deets>
+
+<li class=deet>Created English language model with 10% increase in an extrinsic evaluation</li>
+
+<li class=deet>Developed web scrapers to gather medical language material at scale</li>
+
+<li class=deet>Scripted numerous audio processing pipelines in POSIX shell</li>
+
+<li class=deet>Written numerous tools and commands for natural language processing</li>
+
+<li class=deet>Developed vastly faster grapheme-to-phoneme converter for Polish</li>
+
+<li class=deet>Worked with most language modelling toolkits</li>
+
+<li class=deet>Utilized semantic embeddings for intent recognition and clustering</li>
+
+<li class=deet>Embedded forced-alignment and speaker diarization in ASR pipelines</li>
+
+</ul>
+
+</div>
+
+<div class=employer>
+
+<div class=role>
+  <div><strong>PhD Fellow</strong></div>
+  <div class=dates>January 2018 - December 2020</div>
+</div>
+<div class=entity>University of Stavanger <span class=loc>(Stavanger, Norway)</span></div>
+</div>
+
+<ul class=deets>
+
+<li class=deet>Delivered papers on international conferences and symposia</li>
+
+<li class=deet>Worked on annotation guidelines and administered transcription process</li>
+
+<li class=deet>Developed data for low-resource, historical languages</li>
+
+<li class=deet>Assisted fellow researchers to utilize VCS in the team's daily work</li>
+
+<li class=deet>Developed extensible data processing pipeline for historical language material</li>
+
+<li class=deet>Written up the whole monograph in LaTeX</li>
+
+</ul>
+
+</div>
+
+<div class=employer>
+
+<div class=role>
+  <div><strong>Program Administrator</strong></div>
+  <div class=dates>July 2016 - December 2017</div>
+</div>
+<div class=entity>TAPFIN/ManpowerGroup Solutions <span class=loc>(Łódź, Poland)</span></div>
+</div>
+
+<ul class=deets>
+
+<li class=deet>Handled invoicing and business reports for the client and workforce suppliers</li>
+
+<li class=deet>Participated in job interviews for various coding positions</li>
+
+<li class=deet>Supported the client with workforce intelligence</li>
+
+</ul>
+
+</div>
+
+<div class=employer>
+
+<div class=role>
+  <div><strong>Copywriter</strong></div>
+  <div class=dates>June 2016 - August 2016</div>
+</div>
+<div class=entity>Softbox Group <span class=loc>(Łódź, Poland, Remote)</span></div>
+</div>
+
+<ul class=deets>
+
+<li class=deet>Localized marketing materials for a major hotel brand</li>
+
+<li class=deet>Helped to promote brand with professional Polish to English translations</li>
+
+<li class=deet>Adapted English advertizing materials to the Polish market</li>
+
+</ul>
+
+</div>
+
+<div class=employer>
+
+<div class=role>
+  <div><strong>English Language Instructor</strong></div>
+  <div class=dates>October 2015 - August 2016</div>
+</div>
+<div class=entity>Empik Language School <span class=loc>(Łódź, Poland)</span></div>
+</div>
+
+<ul class=deets>
+
+<li class=deet>Facilitated English language learning among students</li>
+
+<li class=deet>Developed language learning aids and tutorials</li>
+
+<li class=deet>Motivated students to practice English pronunciation in class</li>
+
+</ul>
+
+</div>
+
+
+<div id=projects>
+<h2>Projects</h2>
+<ul>
+<li>Opinionated snippet manager for Unix (https://github.com/mdm-code/gsnip)</li>
+<li>XDG base directory specification in Go (https://github.com/mdm-code/xdg)</li>
+<li>T5-based historical lemmatizer (https://github.com/mdm-code/manx)</li>
+<li>Zettelkasten as a single POSIX shell script (https://github.com/mdm-code/zet)</li>
+<li>Polish grapheme-to-phoneme converter (https://github.com/mdm-code/prg2p)</li>
+</ul>
+</div>
+
+<div id=education>
+<h2>Education</h2>
+<ul>
+<li>PhD, Literacy Studies (Linguistics), University of Stavanger, 2018-ongoing</li>
+<li>MA, English (Linguistics), University of Łódź, 2012-2014</li>
+<li>BA, English (Linguistics), University of Łódź, 2009-2012</li>
+</ul>
+</div>
+
+<div id=skills>
+<h2>Skills</h2>
+<ul>
+<li>UNIX/Linux Systems Architecture and Use</li>
+<li>Software Design and Development</li>
+<li>Python</li>
+<li>Go</li>
+<li>Terminal User Interface</li>
+<li>Test Driven Development Practices</li>
+<li>Domain Driven Design Practices</li>
+<li>Interprocess Communication Methods</li>
+<li>Transport Layer Protocols API Development and Design</li>
+<li>API Protocols</li>
+<li>Docker Containerization</li>
+<li>Scripting and Automation</li>
+<li>Speech and Natural Language Processing</li>
+<li>Language Modeling</li>
+<li>Data Collection and Management</li>
+<li>Data Engineering</li>
+<li>Corpus Design</li>
+<li>Data-centric Approach</li>
+<li>Grammars and Parsing</li>
+<li>Scientific Method</li>
+<li>Writing and Research Publication</li>
+</ul>
+</div>
+
+<style>
+#keywords {
+  padding-left: 2rem;
+}
+</style>
+<br>
+<h2>Keywords</h2>
+<div id=keywords>UNIX • Linux • BSD • Ubuntu • Docker • Containers • Docker-compose • Command Line Interface (CLI) • Terminal User Interface (TUI) • Secure Shell (SSH) • Networking • TCP/IP • Unix Domain Sockets (UDS) • Sockets • HTTP • REST • RPC • JSON-RPC • SQL • PostgreSQL • POSTGRES • TMUX • Screen • Vim • Vi • Neovim • Git • GitHub • GitLab • Python • Go (golang) • Bash • Zsh • Shell • POSIX • FastAPI • Flask • Pandas • Jupyter • Natural Language Processing (NLP) • Natural Language Understanding (NLU) • UML • YAML • JSON • Markdown • XML • LaTeX • Pandoc • TDD • DDD</div>
+
+<div id=languages>
+<h2>Languages</h2>
+<ul>
+<li>Polish (native)</li>
+<li>British English (native-like spoken and written)</li>
+</ul>
+</div>
+
+</main>
+</body>
+</html>
