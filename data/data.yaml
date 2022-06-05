@@ -1,5 +1,5 @@
 Name:     Michał Adamczyk
-Role:     Software Developer, Researcher
+Role:     Software Developer • Researcher
 Email:    code.madamczyk@gmail.com
 Github:   https://github.com/mdm-code
 Location: Łódź, Poland
@@ -29,23 +29,25 @@ Skills:
 
 Summary:
   I am a software developer with experience in natural language processing and
-  natural language understanding. This is mostly backend and data management.
-  I do research in both contemporary and historical linguistics.
+  natural language understanding. This is mostly backend and data
+  management/processing. I do research in both contemporary and historical
+  linguistics.
 
 Languages:
 - Polish (native)
 - British English (native-like spoken and written)
 
 Education:
-- Doctor of Philosophy, Literacy Studies (Linguistics), University of Stavanger, 2018-ongoing
-- Master of Arts, English (Linguistics), University of Łódź, 2012-2014
-- Bachelor of Arts, English (Linguistics), University of Łódź, 2009-2012
+- PhD, Literacy Studies (Linguistics), University of Stavanger, 2018-ongoing
+- MA, English (Linguistics), University of Łódź, 2012-2014
+- BA, English (Linguistics), University of Łódź, 2009-2012
 
 Projects:
-- Opinionated snippet manager for Unix-derived systems (https://github.com/mdm-code/gsnip)
-- The XDG base directory specification in Go (https://github.com/mdm-code/xdg)
-- Lemmatizer for Middle English built with T5 encoder-decoder model (https://github.com/mdm-code/manx)
-- Zettelkasten as a single POSIX shell script, BusyBox style (https://github.com/mdm-code/zet)
+- Opinionated snippet manager for Unix (https://github.com/mdm-code/gsnip)
+- XDG base directory specification in Go (https://github.com/mdm-code/xdg)
+- T5-based historical lemmatizer (https://github.com/mdm-code/manx)
+- Zettelkasten as a single POSIX shell script (https://github.com/mdm-code/zet)
+- Polish grapheme-to-phoneme converter (https://github.com/mdm-code/prg2p)
 
 Experience:
 - Role:     Software Developer / Researcher
@@ -55,14 +57,14 @@ Experience:
   Details:
   - Developed text segment parallelization REST API
   - Designed and integrated database schemas for spoken language acquisition
-  - Coauthored tasks for PolEval 2021 and 2022
+  - Coauthored tasks for PolEval 2021 and 2022 (http://poleval.pl/)
   - Coauthored a report evaluating the performance of major ASR engines for Polish
-  - Added automatic punctuation to text using a transformer-based sequential classifier
+  - Added automatic text punctuation with a transformer-based sequential classifier
   - Designed and implemented intent classification taxonomy
   - Coauthored DiaBiz, an annotated corpus of Polish call center dialogs
   - Enhanced existing language models and classifiers with domain-specific data
   - Processed large volumes of transcribed speech with forced-alignment
-  - Systematized data from multiple databases for author authentication experiments
+  - Systematized data across databases for author authentication experiments
   - Coded intent classifier API with FAISS and semantic embeddings
 
 - Role:     Software Developer / Researcher
@@ -107,7 +109,7 @@ Experience:
   Entity:   Softbox Group
   Started:  June 2016
   Stopped:  August 2016
-  Location: Łódź, Poland (Remote)
+  Location: Łódź, Poland, Remote
   Details:
   - Localized marketing materials for a major hotel brand
   - Helped to promote brand with professional Polish to English translations
