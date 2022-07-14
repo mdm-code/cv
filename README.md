@@ -14,7 +14,7 @@ and filter for relevant information.
 1. Use `--help` to check available command-line arguments for `generate.go`.
 
 ```sh
-go run generage.go --help
+go run generate.go --help
 ```
 
 2. Utilize `Makefile` default goal to compile `index.html` with `make`.
