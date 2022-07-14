@@ -20,6 +20,7 @@ Skills:
 - Speech and Natural Language Processing
 - Language Modeling
 - Data Collection and Management
+- Solr
 - Data Engineering
 - Corpus Design
 - Data-centric Approach
@@ -56,6 +57,7 @@ Experience:
   Location: Remote / Łódź, Poland
   Details:
   - Developed text segment parallelization REST API
+  - Set up a production-ready Solr instance for intent recognition and classification
   - Designed and integrated database schemas for spoken language acquisition
   - Coauthored tasks for PolEval 2021 and 2022 (http://poleval.pl/)
   - Coauthored a report evaluating the performance of major ASR engines for Polish
@@ -127,8 +129,8 @@ Experience:
 
 Keywords: [UNIX, Linux, BSD, Ubuntu, Docker, Containers, Docker-compose,
 Command Line Interface (CLI), Terminal User Interface (TUI), Secure Shell
-(SSH), Networking, TCP/IP, Unix Domain Sockets (UDS), Sockets, HTTP, REST,
-RPC, JSON-RPC, SQL, PostgreSQL, POSTGRES, TMUX, Screen, Vim, Vi, Neovim, Git,
+(SSH), Networking, TCP/IP, Unix Domain Sockets (UDS), Sockets, HTTP, REST, RPC,
+JSON-RPC, SQL, PostgreSQL, POSTGRES, Solr, TMUX, Screen, Vim, Vi, Neovim, Git,
 GitHub, GitLab, Python, Go (golang), Bash, Zsh, Shell, POSIX, FastAPI, Flask,
 Pandas, Jupyter, Natural Language Processing (NLP), Natural Language
 Understanding (NLU), UML, YAML, JSON, Markdown, XML, LaTeX, Pandoc, TDD, DDD]
