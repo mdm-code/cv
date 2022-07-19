@@ -26,4 +26,14 @@ go run generate.go --help
 go run generate.go -dataFile data/@latest -templBase base.html --templDir template/index.html > index.html
 ```
 
+4. Specify `-firm` in case you want RODO clause to be added at the end of your CV.
+
+```sh
+go run generage -firm FooBar > index.html
+```
+
+The templating engine will check if the `.Firm` variable is not empty and in
+case it isn't, It will pop the whole RODO clause alongside the company name at
+the bottom of the document.
+
 4. Use `Firefox` to open `index.html` and save the page as a PDF file.
