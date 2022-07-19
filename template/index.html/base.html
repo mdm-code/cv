@@ -50,6 +50,10 @@ h2 {
   line-height: .2rem;
 }
 
+.clause {
+	font-size: 0.8rem;
+}
+
 </style>
 
 </head>
@@ -63,6 +67,9 @@ h2 {
 {{ template "skills.html" . }}
 {{ template "keywords.html" . }}
 {{ template "languages.html" . }}
+{{ if .Firm  }}
+{{ template "clause.html" . }}
+{{ end }}
 </main>
 </body>
 </html>

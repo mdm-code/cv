@@ -12,6 +12,7 @@ var (
 	dataFile  string
 	templDir  string
 	templBase string
+	firm      string
 )
 
 func main() {
@@ -19,6 +20,7 @@ func main() {
 	fs.StringVar(&dataFile, "dataFile", "data/@latest", "YAML file with resume data")
 	fs.StringVar(&templDir, "templDir", "template/index.html", "template directory root")
 	fs.StringVar(&templBase, "templBase", "base.html", "template base HTML file")
+	fs.StringVar(&firm, "firm", "", "firm name for RODO clause")
 	fs.Parse(os.Args[1:])
 
 	buf, err := os.ReadFile(dataFile)
@@ -27,6 +29,7 @@ func main() {
 	}
 
 	data := map[string]interface{}{}
+	data["Firm"] = firm
 
 	err = yaml.Unmarshal(buf, data)
 	if err != nil {
