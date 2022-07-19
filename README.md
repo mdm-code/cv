@@ -36,4 +36,4 @@ The templating engine will check if the `.Firm` variable is not empty and in
 case it isn't, It will pop the whole RODO clause alongside the company name at
 the bottom of the document.
 
-4. Use `Firefox` to open `index.html` and save the page as a PDF file.
+5. Use `Firefox` to open `index.html` and save the page as a PDF file.
