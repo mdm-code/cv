@@ -8,14 +8,16 @@ Skills:
 - Python
 - Go
 - SQL (PostgreSQL)
-- Web frameworks: FastAPI, Flask (Python) and Gorilla, net/HTTP (Go)
+- Web frameworks, FastAPI, Flask (Python) and Gorilla, net/HTTP (Go)
 - RESTful API, websockets, Transport Layer Protocols
 - Solr
 - Docker Containerization and IPC
 - Bash
+- Git
 - UNIX/Linux Systems Architecture and Use
 - Machine Learning
 - Automatic Testing and TDD
+- OOP, design patterns and data structures
 - Scripting and Automation
 - Microservices
 
